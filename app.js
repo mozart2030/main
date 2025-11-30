@@ -13,7 +13,7 @@ const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 let API_MODEL = "gemini-2.5-flash-lite";
 
 const MAX_CONCURRENCY = 3; // يمكنك رفعه حسب حدود API لديك
-const CHUNK_SIZE = 6000;   // حجم أحرف لكل شظية (قابل للتعديل)
+const CHUNK_SIZE = 10000;   // حجم أحرف لكل شظية (قابل للتعديل)
 const MAX_RETRIES = 5;
 
 let epubFile = null;
